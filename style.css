@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    background-color: #4F696A;
+    margin: 0;
+}
+.home{
+    margin: auto;
+    background-color: #102020;
+    width: 500px;
+    text-align: center;
+    color: aliceblue;
+}
+.home h1{
+    font-size: 60px;
+}
+.home img{
+    width: 200px;
+    height: 200px;
+}
