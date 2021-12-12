@@ -1,19 +1,65 @@
-body{
-    font-family: sans-serif;
-    background-color: #4F696A;
+*{
     margin: 0;
+    padding: 0;
 }
-.home{
-    margin: auto;
-    background-color: #102020;
-    width: 500px;
-    text-align: center;
-    color: aliceblue;
+body{
+    background:url(foto/bacg.jpg);
+    background-size: cover;
 }
-.home h1{
-    font-size: 60px;
+.table{
+    margin: 4rem auto;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 500px;
+    padding: 2rem 3rem;
 }
-.home img{
-    width: 200px;
-    height: 200px;
+.carousel-title{
+    text-transform: uppercase;
+    color: #0066DD;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+.links li{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #0066DD;
+}
+.links li a{
+    text-decoration: none;
+}
+
+.shop-card-desc h5{
+    font-size: 16px;
+    color:#0066DD;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.shop-card-desc h2{
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.shop-card-desc h3{
+    color: #0066DD;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.shop-card-desc p{
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.add_btn{
+    padding: 20px 90px;
+    background-color:#0066DD;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
 }
